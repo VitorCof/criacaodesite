@@ -1,0 +1,37 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color:#A4A4A4;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.topo{
+    background-color:#585858;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topo img{
+    height: 80px;
+    
+}
+
+.esquerda{
+    float: left;
+    
+}
+
+.rodape{
+    display: flex;
+    background-color:black;
+    flex-shrink: 0;
+    color: white;
+    font-family: Arial;
+    justify-content: center;
+}
+

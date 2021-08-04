@@ -1,0 +1,10 @@
+body{color:red}
+#topo{color:yellow;}
+body div p{color:green}
+body .site p{color:blue;}
+
+.grid{
+    display: grid; grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 100px auto 100px;
+    grid-column-gap: 20px; grid-row-gap: 25px;
+}

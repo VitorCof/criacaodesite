@@ -1,0 +1,43 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.topo{
+    background-color: #CCC;
+    padding: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topo img{
+    height: 80px;
+}
+
+.banner img{
+    height: 200px;
+    width: 100%;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.rodape{
+    background-color: #CCC;
+}
+
+.flex-container{
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    justify-content: space-around; align-items: center;
+}
+
+.menu{
+ width: 300px;
+}
